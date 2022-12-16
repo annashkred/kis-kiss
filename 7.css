@@ -1,0 +1,268 @@
+body {
+    font-family: 'Jura', sans-serif;
+    background: url("background.jpg");
+}
+#block1_pusto {
+  width: 20%;
+}
+#block1 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+#music_names {
+display: flex;
+width: 80%;
+justify-content: space-evenly;
+}
+#block1_3 {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+    position: relative;
+    z-index: 3; 
+    width: 100%;
+    height: auto;
+}
+video {
+
+    position: relative;
+    width: 45%;
+    height: auto;
+    max-height: 45%;
+    top: 26px;
+    left: 3%;
+    right: auto;
+
+  
+
+}
+#koncert {
+  width: 20%;
+  right: 28%;
+  position: absolute;
+  top: 150px;
+}
+#magaz {
+  width: 20%;
+  right: 3%;
+  position: absolute;
+  top: 150px;
+}
+#muzlog {
+    text-align: center;
+}
+#muzlo {
+  position: relative;
+  z-index: 3; 
+  width: 300px;
+  height: auto;
+}
+
+  #inst {
+    padding: 6px;
+    width: 70%;
+    height: 25%;
+    z-index: 3;
+  }
+  #vkk {
+    padding: 6px;
+    width: 70%;
+    height: 25%;
+    z-index: 3;
+  }
+  #tt {
+    padding: 6px;
+    width: 70%;
+    height: 25%;
+    z-index: 3;
+  }
+    #block2 {
+      position: relative;
+      display: flex;
+      width: 97%;
+      left: 3%;
+      align-content: center;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
+
+  #block2_3  {
+    position: relative;
+    align-items: center;
+    width: 75%;
+  }
+  #footer_strings_a {
+    color: grey;
+  }
+  #footer_strings_a:hover {
+    color: blue;
+  }
+  h4 {
+    color: white;
+  }
+  #footer_strings {
+    color: white;
+  }
+    #songs {
+      color: white;
+      padding-bottom: 37px;
+      white-space: nowrap;
+  }
+  
+
+  #alboms_elements {
+ 
+      width: 67%;
+      left: 17%;
+      position: relative;
+      align-items: center;
+  }
+  audio {
+    width: 300px;
+    padding-bottom: 14px;
+  }
+  
+ 
+    #albom_elements_names {
+      color: white;
+      display: flex;
+      position: relative;
+      white-space: wrap;
+      justify-content: center;
+  }
+  
+  #alboms_href {
+    text-decoration: none;
+    color: white;
+  }
+  #alboms_href:hover {
+    color: blue;
+  }
+  #alboms_elements:hover {
+    border: solid 2px white;
+  }
+  #koncert:hover {
+    border: solid 2px white;
+  }
+  #magaz:hover {
+    border: solid 2px white;
+  }
+  #inst:hover {
+    border: solid 2px white;
+  }
+  #tt:hover {
+    border: solid 2px white;
+  }
+  #vkk:hover {
+    border: solid 2px white;
+  }
+  video:hover {
+    border: solid 2px white;
+  }
+  footer {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.525);
+    display: flex;
+    justify-content: space-evenly;
+    width: 96%;
+    left: 2%;
+  }
+  #footer_img {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width:1200px) {
+    body{
+      max-width: 1199px;
+    }
+    #inst {
+      padding: 6px;
+      width: 80%;
+      height: 25%;
+      z-index: 3;
+    }
+    #vkk {
+      padding: 6px;
+      width: 80%;
+      height: 25%;
+      z-index: 3;
+    }
+    #tt {
+      padding: 6px;
+      width: 80%;
+      height: 25%;
+      z-index: 3;
+    }
+    #alboms_elements {
+ 
+      width: 67%;
+      left: 14%;
+      position: relative;
+      align-items: center;
+  }
+  }
+  @media (max-width:992px) {
+    body{
+      max-width: 990px;
+    }
+    #inst {
+      padding: 6px;
+      width: 88%;
+      height: 25%;
+      z-index: 3;
+    }
+    #vkk {
+      padding: 6px;
+      width: 88%;
+      height: 25%;
+      z-index: 3;
+    }
+    #tt {
+      padding: 6px;
+      width: 88%;
+      height: 25%;
+      z-index: 3;
+    }
+    #alboms_elements {
+ 
+      width: 67%;
+      left: 17%;
+      position: relative;
+      align-items: center;
+  }
+  }
+  @media (max-width: 767px) {
+    #inst {
+      padding: 6px;
+      width: 88%;
+      height: 25%;
+      z-index: 3;
+    }
+    #vkk {
+      padding: 6px;
+      width: 88%;
+      height: 25%;
+      z-index: 3;
+    }
+    #tt {
+      padding: 6px;
+      width: 88%;
+      height: 25%;
+      z-index: 3;
+    }
+    #alboms_elements {
+ 
+      width: 67%;
+      left: 17%;
+      position: relative;
+      align-items: center;
+  }
+  }
+
+
+
